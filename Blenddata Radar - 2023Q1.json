@@ -16,20 +16,34 @@
   {
     "name": "Python",
     "ring": "adopt",
-    "quadrant": "languages",
+    "quadrant": "languages-and-frameworks",
     "isNew": "FALSE",
     "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
   },
   {
-    "name": "Azure",
+    "name": "dbt",
+    "ring": "trial",
+    "quadrant": "languages-and-frameworks",
+    "isNew": "TRUE",
+    "description": "<p>dbt stands for data build tool. It is a way to </p>"
+  },
+  {
+    "name": "Azure managed SQL",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
-    "description": "<p>Azure is a cloud platform.</p>"
+    "description": "<p>Azure is a cloud platform which also provides managed SQL servers. For our current customers we use managed databases to build a data platform.</p>"
+  },
+  {
+    "name": "Azure Functions",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "<p>In the past we have build some data pipelines in Azure Functions. Due to complexity in the orchestration and monitoring of pipelines, we recommend to use other solutions for monitoring and scheduling pipelines.</p>"
   },
   {
     "name": "Metrics store",
-    "ring": "trial",
+    "ring": "assess",
     "quadrant": "techniques",
     "isNew": "TRUE",
     "description": "<p>The metrics store is a concept where the definition of a business metric is separated from the visual (also called headless BI). An example is <a href=\"https://transform.co/\">Transform</a></p>"
