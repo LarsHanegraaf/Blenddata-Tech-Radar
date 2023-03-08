@@ -14,18 +14,18 @@
     "description": "<p>Azure is a cloud platform which also provides managed SQL servers. For our current customers we use managed databases to build a data platform.</p>"
   },
   {
-    "name": "Dagster",
-    "ring": "trial",
-    "quadrant": "tools",
-    "isNew": "TRUE",
-    "description": "<p><a href=\"https://dagster.io\">Dagster</a> is an orchestrator and potential alternative to Airflow.</p>"
-  },
-  {
     "name": "Python",
     "ring": "adopt",
     "quadrant": "languages-and-frameworks",
     "isNew": "FALSE",
     "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
+  },
+  {
+    "name": "Dagster",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "<p><a href=\"https://dagster.io\">Dagster</a> is an orchestrator and potential alternative to Airflow.</p>"
   },
   {
     "name": "dbt",
