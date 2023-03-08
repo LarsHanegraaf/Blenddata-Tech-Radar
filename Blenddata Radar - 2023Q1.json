@@ -1,6 +1,6 @@
 [
   {
-    "name": "Azure managed SQL",
+    "name": "Azure Managed SQL",
     "ring": "adopt",
     "quadrant": "platforms",
     "isNew": "FALSE",
@@ -35,11 +35,25 @@
     "description": "<p><a href=\"https://python-poetry.org/\">Poetry</a> is a dependency and package manager for Python.</p>"
   },
   {
-    "name": "Python",
+    "name": "Docker",
     "ring": "adopt",
-    "quadrant": "languages & frameworks",
+    "quadrant": "tools",
     "isNew": "FALSE",
-    "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
+    "description": "Docker is a container runtime that we use for testing, packaging pipelines and CI/CD components."
+  },
+  {
+    "name": "Semantic Release",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "We use Semantic Release for a few of our projects to automate the release and release note generation."
+  },
+  {
+    "name": "Pre-commit",
+    "ring": "assess",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "Pre-commit helps you to run some checks on your code before committing. We have implemented it for a few projects."
   },
   {
     "name": "Dagster",
@@ -49,11 +63,39 @@
     "description": "<p><a href=\"https://dagster.io\">Dagster</a> is an orchestrator and potential alternative to Airflow.</p>"
   },
   {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
+  },
+  {
+    "name": "Terraform",
+    "ring": "trial",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "Terraform is a language which can be used for IaC. Currently it is the preferred language for new projects that need Iac. We are still working on completing the guidelines on how to do it properly."
+  },
+  {
     "name": "dbt",
     "ring": "trial",
     "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "<p>dbt stands for data build tool. It is a way to </p>"
+  },
+  {
+    "name": "ARM templates",
+    "ring": "hold",
+    "quadrant": "languages & frameworks",
+    "isNew": "FALSE",
+    "description": "We have use ARM templates as IaC language for some projects in the past. The benefits of Terraform in terms of modularizing infrastructure, makes that we prefer Terraform as a tool for IaC."
+  },
+  {
+    "name": "Lakehouse architecture",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "The Lakehouse is a new hybrid form between a data lake and data warehouse. It has the scalability characteristic of a data lake, while having the discoverability of a data warehouse. It is often realized by combining a query engine (Spark / Presto), file or blob storage (Azure Blob Storage) and metadata component (Hive)."
   },
   {
     "name": "Metrics store",
