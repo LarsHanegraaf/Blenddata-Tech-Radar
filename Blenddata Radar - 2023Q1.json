@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Poetry",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p><a href=\"https://python-poetry.org/\">Poetry</a> is a dependency and package manager for Python.</p>"
+  },
+  {
+    "name": "Dagster",
+    "ring": "trial",
+    "quadrant": "tools",
+    "isNew": "TRUE",
+    "description": "<p><a href=\"https://dagster.io\">Dagster</a> is an orchestrator and potential alternative to Airflow.</p>"
+  },
+  {
+    "name": "Python",
+    "ring": "adopt",
+    "quadrant": "languages",
+    "isNew": "FALSE",
+    "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
+  },
+  {
+    "name": "Azure",
+    "ring": "adopt",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "<p>Azure is a cloud platform.</p>"
+  },
+  {
+    "name": "Metrics store",
+    "ring": "trial",
+    "quadrant": "techniques",
+    "isNew": "TRUE",
+    "description": "<p>The metrics store is a concept where the definition of a business metric is separated from the visual (also called headless BI). An example is <a href=\"https://transform.co/\">Transform</a></p>"
+  }
+]
