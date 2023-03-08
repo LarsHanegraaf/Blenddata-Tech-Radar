@@ -1,12 +1,5 @@
 [
   {
-    "name": "Poetry",
-    "ring": "adopt",
-    "quadrant": "tools",
-    "isNew": "FALSE",
-    "description": "<p><a href=\"https://python-poetry.org/\">Poetry</a> is a dependency and package manager for Python.</p>"
-  },
-  {
     "name": "Azure managed SQL",
     "ring": "adopt",
     "quadrant": "platforms",
@@ -14,9 +7,37 @@
     "description": "<p>Azure is a cloud platform which also provides managed SQL servers. For our current customers we use managed databases to build a data platform.</p>"
   },
   {
+    "name": "Kubernetes",
+    "ring": "trial",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "We are currently investigating about running our open source stack on Kubernetes."
+  },
+  {
+    "name": "Databricks",
+    "ring": "assess",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "For some customers we already work with Databricks for solutions in their infrastructure. However we are not yet sure to recommend it in greenfield situations."
+  },
+  {
+    "name": "Azure Functions",
+    "ring": "hold",
+    "quadrant": "platforms",
+    "isNew": "FALSE",
+    "description": "<p>In the past we have build some data pipelines in Azure Functions. Due to complexity in the orchestration and monitoring of pipelines, we recommend to use other solutions for monitoring and scheduling pipelines.</p>"
+  },
+  {
+    "name": "Poetry",
+    "ring": "adopt",
+    "quadrant": "tools",
+    "isNew": "FALSE",
+    "description": "<p><a href=\"https://python-poetry.org/\">Poetry</a> is a dependency and package manager for Python.</p>"
+  },
+  {
     "name": "Python",
     "ring": "adopt",
-    "quadrant": "languages-and-frameworks",
+    "quadrant": "languages & frameworks",
     "isNew": "FALSE",
     "description": "<p>Python is a programming language. Currently we use version 3.8.</p>"
   },
@@ -30,7 +51,7 @@
   {
     "name": "dbt",
     "ring": "trial",
-    "quadrant": "languages-and-frameworks",
+    "quadrant": "languages & frameworks",
     "isNew": "TRUE",
     "description": "<p>dbt stands for data build tool. It is a way to </p>"
   },
@@ -40,12 +61,5 @@
     "quadrant": "techniques",
     "isNew": "TRUE",
     "description": "<p>The metrics store is a concept where the definition of a business metric is separated from the visual (also called headless BI). An example is <a href=\"https://transform.co/\">Transform</a></p>"
-  },
-  {
-    "name": "Azure Functions",
-    "ring": "hold",
-    "quadrant": "platforms",
-    "isNew": "FALSE",
-    "description": "<p>In the past we have build some data pipelines in Azure Functions. Due to complexity in the orchestration and monitoring of pipelines, we recommend to use other solutions for monitoring and scheduling pipelines.</p>"
   }
 ]
